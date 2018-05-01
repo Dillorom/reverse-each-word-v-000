@@ -1,5 +1,6 @@
 def reverse_each_word("Hello there, and how are you?")
-  reverse_each_word.each do |word|
+  array = "Hello there, and how are you?".to_a
+  array.each do |word|
     word.reverse
   end
 
